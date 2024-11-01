@@ -1,0 +1,114 @@
+{
+  "tests": [
+    {
+      "name": "Soal01a",
+      "setup": "javac Soal01.java",
+      "run": "java Soal01",
+      "input": "123 456 789 101 135",
+      "output": "123 valid\n456 tidak valid\n789 valid\n101 tidak valid\n135 valid",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "Soal03a",
+      "setup": "javac Soal03.java",
+      "run": "java Soal03",
+      "input": "18 30 15",
+      "output": "18:45",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 12
+    },
+	{
+      "name": "Soal03b",
+      "setup": "javac Soal03.java",
+      "run": "java Soal03",
+      "input": "8 30 45",
+      "output": "9:15",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 13
+    },
+    {
+      "name": "Soal02a",
+      "setup": "javac Soal02.java",
+      "run": "java Soal02",
+      "input": "3.0 3.7\n450 ada ada",
+      "output": "Cumlaude",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 7
+    },
+   {
+      "name": "Soal02b",
+      "setup": "javac Soal02.java",
+      "run": "java Soal02",
+      "input": "3.5 3.7\n450 ada tidak",
+      "output": "Tidak Cumlaude",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 6
+    },
+    {
+      "name": "Soal02c",
+      "setup": "javac Soal02.java",
+      "run": "java Soal02",
+      "input": "3.0 3.7\n400 ada ada",
+      "output": "Tidak Cumlaude",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 6
+    },
+   {
+      "name": "Soal02d",
+      "setup": "javac Soal02.java",
+      "run": "java Soal02",
+      "input": "3.0 3.6\n470 tidak ada",
+      "output": "Cumlaude",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 6
+    },
+    {
+      "name": "Soal04a",
+      "setup": "javac Soal04.java",
+      "run": "java Soal04",
+      "input": "DES 140",
+      "output": "4800000.0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 6
+    },
+    {
+      "name": "Soal04b",
+      "setup": "javac Soal04.java",
+      "run": "java Soal04",
+      "input": "PRG 170",
+      "output": "6555000.0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 6
+    },
+	  {
+      "name": "Soal04c",
+      "setup": "javac Soal04.java",
+      "run": "java Soal04",
+      "input": "WRT 160",
+      "output": "5200000.0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 6
+    },
+	   {
+      "name": "Soal04d",
+      "setup": "javac Soal04.java",
+      "run": "java Soal04",
+      "input": "MKT 180",
+      "output": "6278000.0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 7
+    }
+  ]
+}
